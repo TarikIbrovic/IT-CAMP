@@ -1,0 +1,14 @@
+.main {
+  width: 500px;
+  height: 400px;
+  background-color: green;
+  overflow: auto;
+}
+.main h2 {
+  color: red;
+}
+.main p {
+  color: blue;
+  text-align: center;
+  font-size: 20px;
+}

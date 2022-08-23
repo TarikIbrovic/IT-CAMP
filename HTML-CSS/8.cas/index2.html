@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style2.css" />
+    <title>prijava</title>
+  </head>
+  <body>
+    <form>
+      <div class="main">
+        <h1><strong>prijava</strong></h1>
+      </div>
+
+      <form>
+        <div class="main1">
+          <label for="username"></label>
+          <input
+            type="username"
+            name="username"
+            id="username"
+            required
+            placeholder="vase ime"
+          />
+          <br /><br />
+
+          <label for="email"></label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="email"
+          />
+          <br /><br />
+
+          <label for="pass"></label>
+          <input
+            type="password"
+            name="password"
+            id="pass"
+            placeholder="lozinka"
+            required
+          />
+          <br /><br />
+
+          <label for="age"></label>
+          <input
+            type="number"
+            name="age"
+            id="age"
+            required
+            min="15"
+            max="120"
+          />
+          <br />
+
+          <label for="man">m</label>
+          <input
+            class="inputaaa"
+            type="radio"
+            name="Gender"
+            id="man"
+            value="man"
+          />
+          <label class="inputaaa" for="women">z</label>
+          <input
+            type="radio"
+            name="Gender"
+            id="women"
+            value="women"
+          /><br /><br />
+          <br />
+        </div>
+      </form>
+
+      <form action="./index3.html">
+        <button type="submit">registruj se</button>
+      </form>
+    </form>
+  </body>
+</html>

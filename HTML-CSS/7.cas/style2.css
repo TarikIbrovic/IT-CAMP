@@ -1,0 +1,30 @@
+.main {
+  width: 400px;
+  height: 400px;
+  margin-left: 600px;
+  background-color: rgb(0, 255, 0);
+  border: 3px dotted;
+  padding: 20px;
+  box-shadow: 3px 3px 3px black;
+}
+.main p {
+  text-align: center;
+}
+
+.main h1 {
+  text-align: center;
+}
+
+.main h3 {
+  text-align: center;
+}
+
+img {
+  margin-left: 50px;
+  width: 300px;
+  height: 160px;
+}
+
+p:hover {
+  color: blue;
+}
