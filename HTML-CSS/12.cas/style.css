@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: "Kalam", cursive;
+  /*font-size: 0.6cm;*/
+  /*font-size: 6mm;*/
+  font-size: 16px;
+}
+.main {
+  margin: auto;
+  /*width: 700px;*/
+  width: 80vw;
+  /*width: 10in;*/
+  height: 300px;
+  background-color: green;
+  font-size: 2em;
+}
+
+.child {
+  background-color: orange;
+  font-size: 2em;
+}
+
+/* Absolute lenghts: */
+/* cm - centimeters */
+/* mm - milimeters */
+/* in - inches (1 in = 96px) */
+/* px */
+
+/* Relative lenghts: */
+/* em - Relativan u odnosu na font-size od parent elementa */
+/* vw - viewport of width - Relativna u odnosu na sirinu ekrana */
+/* vh - viewport of height - Relativna u odnosu na visinu ekrana */
+/* % - relativanu odnosu na parent element */
