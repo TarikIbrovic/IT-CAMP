@@ -6,7 +6,7 @@
 header {
   width: 100vw;
   height: 20vh;
-  background-color: blue;
+  background-color: aliceblue;
 }
 img {
   width: 10%;
@@ -15,4 +15,27 @@ img {
 
 .links {
   display: inline-block;
+  margin-left: 15rem;
+}
+
+.links a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: blue;
+  padding-right: 0.7rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.links a:hover {
+  padding: 0.5rem;
+  background-color: aqua;
+  border-radius: 10px;
+}
+
+a:visited {
+  padding: 0.5rem;
+  background-color: aqua;
+  border-radius: 10px;
+  color: palegoldenrod;
 }
