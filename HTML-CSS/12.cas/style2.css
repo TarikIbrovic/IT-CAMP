@@ -16,8 +16,8 @@ img {
 .links {
   display: inline-block;
   margin-left: 15rem;
+  margin-top: 5rem;
 }
-
 .links a {
   font-size: 1.2rem;
   text-decoration: none;
