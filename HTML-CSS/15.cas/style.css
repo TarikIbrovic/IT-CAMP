@@ -1,0 +1,58 @@
+body {
+}
+
+.main {
+  margin: 2rem;
+  width: 95%;
+  height: 250vh;
+  background-color: blue;
+  position: relative;
+}
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  /* relative ostavlja rezervisan prostor na kom se nalazio (tu se nece automatskinaci sledeci) */
+  /* Dobijamo mogucnost pomeranja elementa (sa svih strana) u odnosu na parent element */
+  position: relative;
+  top: 0px;
+  left: 700px;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  /* Absolute ne cuva prosor na kom se nalazio (tu ce se automatski naci sledeci element ispod onog sa kom je positio absolute) */
+  /* Dobijamo mogucnost pomeranja elementa (sa svih strana) u odnosu na parent element. */
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  position: fixed;
+  top: 50px;
+  left: 150px;
+}
+
+.box4 {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.box5 {
+  width: 100px;
+  height: 100px;
+  background-color: bisque;
+  position: relative;
+  z-index: 20;
+}

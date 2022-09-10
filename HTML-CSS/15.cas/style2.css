@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+
+.main {
+  width: 700px;
+  height: 600px;
+  background-color: blue;
+}
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  position: relative;
+  top: 100px;
+  left: 70px;
+  z-index: 10;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: relative;
+  top: 80px;
+  left: 120px;
+  z-index: 20;
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: relative;
+  top: 70px;
+  left: 170px;
+  z-index: 10;
+}
