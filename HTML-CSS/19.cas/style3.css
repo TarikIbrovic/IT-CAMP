@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(255, 228, 196);
+}
+
+.child {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(0, 0, 255);
+}
+
+.parent:hover .child {
+  animation: top-to-bottom 1s ease-in-out forwards 3 alternate;
+}
+
+@keyframes top-to-bottom {
+  100% {
+    transform: translateY(250px);
+  }
+}
