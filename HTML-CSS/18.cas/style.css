@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 75%;
+  height: 550px;
+  background-color: bisque;
+  display: flex;
+  margin: auto;
+}
+
+.box1 {
+  flex-grow: 1;
+  width: 250px;
+  height: 150px;
+  background-color: blue;
+}
+
+.box2 {
+  flex-grow: 1;
+  width: 250px;
+  height: 150px;
+  background-color: green;
+}
+
+.box3 {
+  flex-grow: 1;
+  width: 250px;
+  height: 150px;
+  background-color: orange;
+}
