@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 80%;
+  height: 65vh;
+  margin: auto;
+  background-color: bisque;
+}
+
+.main h1 {
+  color: rgb(255, 0, 0);
+}
+
+/* Tipovi koji su podrzani u media su: */
+/* 1. all (odnosi se na sve tipove i to je nesto sto cemo uvek koristiti) */
+
+@media (min-width: 501px) and (max-width: 678px) {
+  body {
+    font-size: 0.9rem;
+  }
+
+  .main {
+    width: 95%;
+    height: 50vh;
+    text-align: center;
+    background-color: green;
+  }
+
+  .main h1 {
+    color: blue;
+  }
+}
+
+@media all and (max-width: 500px) {
+  body {
+    font-size: 0.8rem;
+  }
+  .main {
+    width: 100%;
+    height: 50vh;
+    padding: 1rem;
+    overflow: auto;
+  }
+
+  .main h1 {
+    color: rgb(255, 165, 0);
+  }
+}
