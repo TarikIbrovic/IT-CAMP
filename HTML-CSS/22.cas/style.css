@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  background-color: cyan;
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-auto-rows: 150px;
+}
+
+.box1 {
+  /* height: 150px; */
+  background-color: blue;
+}
+
+.box2 {
+  /* height: 150px; */
+  background-color: green;
+}
+
+.box3 {
+  /* height: 150px; */
+  background-color: orange;
+}
+
+.box4 {
+  /* height: 150px; */
+  background-color: yellow;
+}
+
+.box5 {
+  /* height: 150px; */
+  background-color: red;
+}
+
+.box6 {
+  /* height: 150px; */
+  background-color: greenyellow;
+}
+
+.box7 {
+  /* height: 150px; */
+  background-color: bisque;
+}
