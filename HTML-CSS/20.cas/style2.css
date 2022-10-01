@@ -114,3 +114,33 @@ footer {
   height: 15vh;
   background-color: cyan;
 }
+
+footer h1 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  top: 2rem;
+  color: white;
+  cursor: default;
+}
+
+footer h1:hover {
+  color: black;
+  transition: 1s;
+}
+
+footer a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  left: 80rem;
+  top: 3rem;
+  font-size: large;
+  cursor: default;
+}
+
+footer a:hover {
+  color: black;
+  transition: 1s;
+}
