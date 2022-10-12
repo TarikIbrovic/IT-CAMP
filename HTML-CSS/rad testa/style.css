@@ -123,22 +123,3 @@ footer {
 footer a {
   text-decoration: none;
 }
-
-.fa {
-  position: relative;
-  bottom: 6.2rem;
-  left: 2rem;
-}
-
-#fa {
-  position: relative;
-  bottom: 12.7rem;
-  padding-right: 60rem;
-  padding-top: 1rem;
-}
-
-#fa1 {
-  margin-left: 80rem;
-  margin-top: 3rem;
-  font-size: large;
-}
